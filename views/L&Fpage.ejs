@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lost&Found page</title>
+        <link rel="stylesheet" href="stylesheets/style.css">
+        <script src="js/jquery-3.6.3.min.js"></script>
+    </head>
+<body>
+    <header>
+     <nav>
+        <div class="nav" id="logo"><button id="login-bt"><img src="images/logo.jpg"></button></div>
+        <div class="nav" id="nav-contents">
+            <span><a href="/home_page/index.html">home</a></span>
+            <span>about us</span>
+            <span>help</span></div>
+        <div class="nav" id="search">
+            <input type="text">
+            <button  id="s-b"><img src="/images/search.png"></button>
+            
+        </div>
+        <!-- <div class="nav" id="sign-in"><button id="login-btn">
+            <a href="login-in.html">Sign-In</a>
+        </button>
+           
+        </div> -->
+     </nav>
+    </header>
+    <main>
+        <section id="operation">
+            <button id="up">
+                <!-- <a href="upload.html">upload</a> -->
+               upload
+            </button>
+            <button id="rmv">remove</button>
+        </section>
+       <section id="items">
+        <div class="items" id="1">
+            <p id="in1"></p>
+            <img src="/images/1.jpg">
+            <button id="c1" class="claim">claim?</button>
+            <!-- <div class="info">
+                <p id="1_loc"></p>
+                <p id="1_uploader_details"></p>
+            </div> -->
+            <details>
+                <summary>details</summary>
+                <p>
+                    found loc at- Lorem ipsum dolor sit amet.
+                    current loc at- Lorem, ipsum dolor.
+                    uploader_details-
+                    name-abc
+                    id-121A1####
+                </p>
+            </details>
+        </div>
+        <div class="items" id="2">
+            <p id="in2"></p>
+            <img src="/images/2.jpg">
+            <button id="c2" class="claim">claim?</button>
+            <!-- <div class="info">
+                <p id="2_loc"></p>
+                <p id="2_uploader_details"></p>
+            </div> -->
+            <details>
+                <summary>details</summary>
+                <p>
+                    found loc at- Lorem ipsum dolor sit amet.
+                    current loc at- Lorem, ipsum dolor.
+                    uploader_details-
+                    name-abc
+                    id-121A1####
+                </p>
+            </details>
+        </div>
+        <div class="items" id="3">
+            <p id="in3"></p>
+            <img src="/images/6.jpg">
+            <button id="c3" class="claim">claim?</button>
+            <!-- <div class="info">
+                <p id="3_loc"></p>
+                <p id="3_uploader_details"></p>
+            </div> -->
+            <details>
+                <summary>details</summary>
+                <p>
+                    found loc at- Lorem ipsum dolor sit amet.
+                    current loc at- Lorem, ipsum dolor.
+                    uploader_details-
+                    name-abc
+                    id-121A1####
+                </p>
+            </details>
+        </div>
+        <div class="items" id="4">
+            <p id="in4"></p>
+            <img src="/images/5.jpg">
+            <button id="c4" class="claim">claim?</button>
+            <!-- <div class="info">
+                <p id="4_loc"></p>
+                <p id="4_uploader_details"></p>
+            </div> -->
+            <details>
+                <summary>details</summary>
+                <p>
+                    found loc at- Lorem ipsum dolor sit amet.
+                    current loc at- Lorem, ipsum dolor.
+                    uploader_details-
+                    name-abc
+                    id-121A1####
+                </p>
+            </details>
+        </div>
+        <div class="items" id="5">
+            <p id="in5"></p>
+            <img src="/images/7.jpg">
+            <button id="c5" class="claim">claim?</button>
+            <!-- <div class="info">
+                <p id="5_loc"></p>
+                <p id="5_uploader_details"></p>
+            </div> -->
+            <details>
+                <summary>details</summary>
+                <p>
+                    found loc at- Lorem ipsum dolor sit amet.
+                    current loc at- Lorem, ipsum dolor.
+                    uploader_details-
+                    name-abc
+                    id-121A1####
+                </p>
+            </details>
+        </div>
+        <div class="items" id="6">
+            <p id="in6"></p>
+            <img src="/images/8.jpg">
+            <button id="c6" class="claim">claim?</button>
+            <!-- <div class="info">
+                <p id="6_loc"></p>
+                <p id="6_uploader_details"></p>
+            </div> -->
+            <details>
+                <summary>details</summary>
+                <p>
+                    found loc at- Lorem ipsum dolor sit amet.
+                    current loc at- Lorem, ipsum dolor.
+                    uploader_details-
+                    name-abc
+                    id-121A1####
+                </p>
+            </details>
+        </div>
+
+       </section>
+       
+       <section class="form" id="upload_form">
+       <form>
+        <div id="uf">
+            <p>name</p>
+            <input name="name" type="text" id="up_d_nm">
+            <p >id</p>
+            <input name="id" type="number" id="up_d_id">
+            <p class="loc">enter found loc</p>
+            <input type="text" id="f_loc" name="floc">
+            <p class="current loc">enter current loc</p>
+            <input type="text" id="c_loc" name="cloc">
+            <p>pls upload image of item</p>
+            <input type="file"  id="up_img" accept="image/png, image/jpg" name="img">
+            <button id="u_s" class="sub_btn" type="submit">submit</button>
+            <button class="c_btn">close</button>
+        </div>
+        </form>
+       </section>
+       <sectionc  class="form" id="claim_form">
+        <div id="cf">
+          <p> name</p>
+           <input type="text" name="name" id="cl_d_nm" required>
+           <p>id</p>
+           <input type="number" required>
+           <p>By Claiming above lost item ,you confirm that this lost object is yours and you are true owner of it!!!!</p>
+           <input type="checkbox" required>
+           <input type="submit" id="c-s" class="sub_btn">
+           <button class="c_btn">close</button>
+        </div>
+       </section>
+    </main>
+    <footer>
+      <p>  Want to email us?- <a href=" ">abc123@siesgst.ac.in</a> </p>
+       <p>contact us?- 0123456789</p>
+       <p><img src="/images/LinkedinLogo.png"> &copysiesgst</p>
+
+    </footer>
+    <script src="javascripts/index.js"></script>
+</body>
+</html>

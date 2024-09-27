@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+     * {
+    margin: 0px;
+    padding: 0px;
+}
+
+#h {
+    background-color: rgb(10, 5, 148);
+    height: 40px;
+    color: white;
+    border-color: 4px black;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+nav header a {
+    list-style: none;
+    text-decoration: none;
+}
+
+nav header a:hover {
+    color: red;
+
+}
+
+nav header li {
+    margin: 0px;
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    font-size: 18px;
+    color: darkblue;
+    padding: 75px;
+    position: relative;
+    bottom: 40px;
+    left: 50px;
+}
+
+nav header {
+    height: 100px;
+}
+
+nav header li:hover {
+    color: red;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+nav header img {
+    margin: 0px;
+    width: 12%;
+    position: relative;
+    left: 30px;
+}
+
+body {
+    background-image: url(hk.jpg);
+    background-repeat: initial;
+}
+
+#imgf img {
+    height: 50vh;
+    width: 40vw;
+    padding: 20px;
+
+}
+
+#imgf h2 {
+    display: flex;
+    justify-content: flex-end;
+    transform: translate(-18%, -10%);
+    position: relative;
+    bottom: 330px;
+    font-size: 60px;
+}
+
+#imgf p {
+    bottom: 325px;
+    font-size: 25px;
+    text-align: end;
+    right: 12px;
+    display: block;
+    justify-items: center;
+    position: relative;
+    height: 35px;
+}
+
+#imgf p2 {
+    bottom: 320px;
+    font-size: 25px;
+    display: block;
+    text-align: end;
+    right: 118px;
+    position: relative;
+    transform: translate(0%, 25%);
+}
+
+#click p {
+    display: flexbox;
+    text-align: end;
+    right: 188px;
+    position: display;
+    transform: translate(0%, 60%);
+}
+
+#imgf p3 {
+    bottom: 325px;
+    font-size: 25px;
+    display: block;
+    right: 50px;
+    text-align: end;
+    transform: translate(0%, 15%);
+    position: relative;
+}
+
+.whole {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 550px;
+    margin-bottom: 5%;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    left: 30%;
+}
+
+.whole .content {
+    position: relative;
+    right: 25%;
+    bottom: 60px;
+    border-color: 2px black;
+    border-color: 2px solid black;
+
+}
+
+.whole .content:hover {
+    background-color: aqua;
+    transition: 1s;
+    border-radius: 10%;
+}
+
+.whole .con {
+    position: relative;
+    left: 180px;
+    bottom: 60px;
+}
+
+.whole .con:hover {
+    background-color: aqua;
+    transition: 1s;
+    border-radius: 5%;
+}
+
+footer {
+    background-color:rgb(10, 5, 148);
+    text-align: center;
+    color: white;
+    height: 65px;
+}
+
+
+main .form {
+    border: 2px solid black;
+    width: 40%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-image: url(blue-curved-border-simple-background_53876-115364.avif);
+    transform: translate(75%, 10%);
+    font-size: 25px;
+    height: 600px;
+}
+
+.form h2 {
+    text-decoration: underline;
+    color: white;
+}
+
+.text {
+    display: inline-flex;
+    transform: translate(153%);
+    position: absolute;
+    top: 290px;
+    font-size: 20px;
+}
+
+.nd input {
+    justify-content: space-between;
+    display: flex;
+}
+
+.nd {
+    display: inline-flex;
+    justify-content: space-around;
+    transform: translate(120%, 200%);
+    position: absolute;
+    top: 295px;
+    font-size: 20px;
+}
+
+.text input {
+    width: 280px;
+    height: 20px;
+
+}
+
+.roll {
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    left: 540px;
+    bottom: 350px;
+    font-size: 20px;
+
+}
+
+.roll input {
+    width: 20vw;
+}
+
+.br {
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    left: 135px;
+    bottom: 300px;
+    font-size: 20px;
+}
+
+.br input {
+    width: 20vw;
+}
+
+.mail {
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    bottom: 250px;
+    right: 18.2%;
+    font-size: 20px;
+}
+
+.item p {
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    left: 35%;
+    bottom: 220px;
+    font-size: 20px;
+}
+
+.item input {
+    display: inline-flex;
+    position: relative;
+    font-size: 18px;
+    left: 35%;
+    bottom: 220px;
+
+}
+
+.mail input {
+    width: 15vw
+}
+
+#but button:hover {
+    background-color: red;
+    color: white;
+    border-color: 2px white;
+}
+
+#but button {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 43%;
+    background: transparent;
+    cursor: pointer;
+    transform: translate(0px, -680%);
+    width: 15%;
+    color: black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#but {
+    display: flex;
+    position: relative;
+
+
+}
+     </style>
+</head>
+
+<body>
+    <div id="h">
+        <header2>   
+            <h2>HOME PAGE</h2>
+        </header2>
+    </div>
+    <nav>
+        <header>
+            <img src="images/sieslogo.jpg" alt="" srcset="">
+            <li><a href="index.html"> HOME </a> </li>
+            <li>ABOUT US</li>   
+            <li>CONTACT US</li>
+            <li><a href="/LF"> HELP </a> </li>   
+            <!-- <li><a href="signin.html"> SIGN IN </a> </li> -->
+        </header>
+    </nav>
+    <hr>
+    <div id="imgf">
+        <img src="images/sies-graduate-school-of-technology-siesgst-navi-mumbai.jpg" alt="" srcset="">
+        <h2>Lost And Found </h2>
+        <p>This Web Application helps to find the lost material in the college campus and handed</p>
+        <p>back to the owner. This website is developed and maintained for ' SIES GST ' , </p>
+        <p>in regards for all the faculty members , staffs and college students.</p>
+        <div id="click">
+            <p><a href="/LF">Click here to view the LOST AND FOUND PAGE </a></p>
+        </div>
+    </div>
+    <br>
+    <div class="whole">
+        <div class="content">
+            <h3>ABOUT US</h3>
+            <P>This Web App is developed in the format of to help the members of the college to find there lost items
+                and return it back to the owner. This web app is complietly authorized to SIES GST college </P>
+
+        </div>
+        <div class="con">
+            <h3>CONTACT US</h3>
+            <h4>SIES Graduate School of Technology</h4>
+            <p></p> Sri Chandrasekarendra Saraswati Vidyapuram,
+            Plot IC-E, Sector V, Nerul, Navi Mumbai 400706.
+            INDIA
+            Tel No:
+            (91) 6108 2402 / 6108 2417
+        </div>
+    </div>
+    <footer>
+        <h2>SIES GRADUATE SCHOOL OF TECHNOLOGY</h2>
+        <p>© 2023 SIES Graduate School Of Technology. All Rights Reserved.
+        </p>
+    </footer>
+</body>
+
+</html>
